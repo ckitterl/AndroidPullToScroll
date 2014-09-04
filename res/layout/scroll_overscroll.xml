@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.larry.widget.PullToExpendScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/top"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="-30dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="#0088CC"
+                android:gravity="center"
+                android:text="TOP"
+                android:textSize="120sp" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#00FF00"
+                android:gravity="center"
+                android:text="@string/hello_world" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:gravity="center"
+                android:text="@string/hello_world" />
+
+            <TextView android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:gravity="center"
+				android:background="#00FF00"
+                android:text="@string/hello_world"
+                />
+        </LinearLayout>
+    </FrameLayout>
+
+</com.larry.widget.PullToExpendScrollView>
